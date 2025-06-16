@@ -1,12 +1,13 @@
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 #include <iostream>
 using namespace std;
 int main() {
-    char first, middle, last;
-    first = 'L';
-    middle = 'C';
-    last = 'J';
-    cout << first << middle << last << endl;
+    string name, adress, phoneNumber;
+    name = "L Jackson";
+    adress = "Home";
+    phoneNumber = "605 475-6968";
+    cout << name << endl;
+    cout << adress << endl;
+    cout << phoneNumber << endl;
     return 0;
-    // Adding in this comment to test pushing changes, don't mind this. 
 }
